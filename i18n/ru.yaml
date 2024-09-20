@@ -1,0 +1,157 @@
+# Single pages
+- id: postedOnDate
+  translation: "Дата: {{ . }}"
+- id: lastModified
+  translation: "Обновлено: {{ . }}"
+- id: read
+  translation: "на чтение: "
+- id: minutesShort
+  translation: "мин"
+- id: words
+  translation: "слов"
+- id: photoFull
+  translation: "Фото: %s -- %s"
+- id: photoShort
+  translation: "Фото: {{ . }}"
+- id: photoOn
+  translation: "--"
+- id: draft
+  translation: "черновик"
+
+# List pages
+- id: article
+  translation: "Статья"
+- id: articles
+  translation: "Статей"
+- id: more
+  translation: "Больше {{ . }}"
+- id: emptyList
+  translation: "Статей не найдено"
+- id: emptyTags
+  translation: "Тэгов не найдено"
+- id: readMore
+  translation: "Читать дальше"
+
+# Languages
+- id: lang_de
+  translation: "Немецкий"
+- id: lang_en
+  translation: "Английский"
+- id: lang_nl
+  translation: "Нидерландский"
+- id: lang_fr
+  translation: "Французский"
+
+# Sharing
+- id: shareLink
+  translation: "Поделиться: {{ . }}"
+- id: shareSystem
+  translation: "system"
+- id: copyToClipboard
+  translation: "копировать оглавление"
+- id: copiedToClipboard
+  translation: "оглавление скопировано"
+- id: link
+  translation: "Ссылка"
+- id: code
+  translation: "Код"
+- id: download
+  translation: "Скачать"
+
+# Pagination
+- id: paginationNav
+  translation: "Навигация"
+- id: paginationPrevious
+  translation: "Предыдущая"
+- id: paginationNext
+  translation: "Следующая"
+- id: paginationFirst
+  translation: "Первая"
+- id: paginationLast
+  translation: "Последняя"
+
+# Navigation
+- id: colorMode
+  translation: "Режим"
+- id: colorLight
+  translation: "Светлая"
+- id: colorDark
+  translation: "Тёмная"
+- id: colorAuto
+  translation: "Auto"
+- id: toggleMainNav
+  translation: "toult главн. навиг"
+- id: home
+  translation: "Главная"
+- id: languageSwitcherLabel
+  translation: "Язык"
+- id: close
+  translation: "закрыть"
+
+# Table of contents
+- id: toc
+  translation: "På denna sida"
+- id: seeAlso
+  translation: "см. также"
+- id: sectionMenu
+  translation: "меню раздела"
+
+# Sidebar
+- id: toggleSidebar
+  translation: "тогле-сидебар"
+
+# Feature
+- id: addedFeature
+  translation: "добавить феатуре {{ . }}"
+- id: deprecatedFeature
+  translation: "Устарело sedan {{ . }}"
+
+# Versioning
+- id: latest
+  translation: "последнее"
+- id: allVersions
+  translation: "Все версии"
+- id: newerVersionAlert
+  translation: "Никаких версий нет {{ . }}!"
+
+# 404 page
+- id: pageNotFound
+  translation: "Ничего не найдено {{ . }}."
+- id: pageNotFoundTitle
+  translation: "Название не найдено"
+- id: pageNotFoundHome
+  translation: "hemsida"
+
+# Footer
+- id: copyright
+  translation: "Copyright"
+- id: rights
+  translation: "Все права защищены"
+- id: poweredBy
+  translation: "Сознано на {{ . }}."
+
+# Comments
+- id: show
+  translation: "Показать"
+- id: comments
+  translation: "Комментарии" 
+
+# Arguments
+- id: name
+  translation: "Имя"
+- id: type
+  translation: "Тип"
+- id: required 
+  translation: "требуется"
+- id: default
+  translation: "Standard"
+- id: comment
+  translation: "Kommentar"
+- id: supportedValues
+  translation: "Värden som stöds"
+
+# Search
+- id: ui_search
+  translation: "Поиск"
+- id: ui_no_results
+  translation: "Ничего не найдено"
