@@ -134,3 +134,8 @@ timeout = "10m"
   pre = "fab medium"
   url = "https://medium.com/"
   weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
