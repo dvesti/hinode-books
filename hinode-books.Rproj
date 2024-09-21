@@ -11,4 +11,7 @@ Encoding: UTF-8
 
 RnwWeave: knitr
 LaTeX: pdfLaTeX
+
+BuildType: Website
+WebsitePath: C:/Users/Administrator/Dropbox/R/hinode-books
 DisableExecuteRprofile: Yes

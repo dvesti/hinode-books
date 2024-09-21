@@ -1,6 +1,6 @@
 ---
-title: About
-description: Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+title: О сайте
+description: Hinode -- Hugo --Blogdown + Bootstrap 5
 date: 2022-04-11
 updated: 2023-08-02
 showComments: false

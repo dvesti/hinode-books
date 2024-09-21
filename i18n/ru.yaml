@@ -126,9 +126,9 @@
 - id: copyright
   translation: "Copyright"
 - id: rights
-  translation: "Все права защищены"
+  translation: "All rights reserved"
 - id: poweredBy
-  translation: "Сознано на {{ . }}."
+  translation: "Powered by {{ . }}."
 
 # Comments
 - id: show

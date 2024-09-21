@@ -1,18 +1,22 @@
-baseURL = 'https://dnym.github.io/hinode-books/'
-defaultContentLanguage = 'en'
+baseURL = 'https://dvesti.github.io/hinode-books/'
+defaultContentLanguage = 'ru'
 defaultContentLanguageInSubdir = true
 timeout = "10m"
 
 [params.main]
     canonifyAssetsURLs = true
+#    canonifyURLs = true 
 [params.style]
     themeFontPreload = "/hinode-books/fonts/inter-v12-latin-regular.woff2"
+
+[pagination]
+  PagerSize = 9
 
 [[module.imports]]
     path = 'github.com/gethinode/hinode'
 
 [languages.en]
-    title = 'My New Hugo Site'
+    title = 'HHB'
     contentDir = 'content/en'
     languageCode = 'en'
     languageName = 'English'
@@ -29,7 +33,7 @@ timeout = "10m"
     caption = "I work on everything coding and tweet developer memes"
 
 [languages.sv]
-    title = 'Min nya Hugo-sajt'
+    title = 'HHB'
     contentDir = 'content/sv'
     languageCode = 'sv'
     languageName = 'Svenska'
@@ -44,6 +48,23 @@ timeout = "10m"
 [languages.sv.params.social]
     title = "Följ mig"
     caption = "Jag arbetar med allt som har med kodning att göra och twittrar utvecklarmemer"
+
+[languages.ru]
+    title = 'HHB'
+    contentDir = 'content/ru'
+    languageCode = 'ru'
+    languageName = 'Русский'
+[languages.ru.params.sections.blog]
+    reference = "Больше..."
+[languages.ru.params.sections.projects]
+    reference = "Больше Проектов"
+[languages.ru.params.sections.books]
+    reference = "Больше Книг"
+[languages.ru.params.head]
+    tagline = "A Hugo Theme"
+[languages.ru.params.social]
+    title = "Подписка"
+    caption = "Наши соц. сети:"
 
 [params.navigation]
     logo = "img/logo_icon.svg"
@@ -98,7 +119,28 @@ timeout = "10m"
     name = 'Taggar'
     pageRef = 'tags/'
     weight = 50
-
+    
+[[languages.ru.menus.main]]
+    name = 'О сайте'
+    pageRef = 'about/'
+    weight = 10
+[[languages.ru.menus.main]]
+    name = 'Блог'
+    pageRef = 'blog/'
+    weight = 20
+[[languages.ru.menus.main]]
+    name = 'Проекты'
+    pageRef = 'projects/'
+    weight = 30
+[[languages.ru.menus.main]]
+    name = 'Книги'
+    pageRef = 'books/'
+    weight = 40
+[[languages.ru.menus.main]]
+    name = 'Тэги'
+    pageRef = 'tags/'
+    weight = 50
+    
 [[languages.en.menus.social]]
   name = "LinkedIn"
   pre = "fab linkedin"
@@ -130,6 +172,24 @@ timeout = "10m"
   weight = 20
 
 [[languages.sv.menus.social]]
+  name = "Medium"
+  pre = "fab medium"
+  url = "https://medium.com/"
+  weight = 30
+  
+  [[languages.ru.menus.social]]
+  name = "LinkedIn"
+  pre = "fab linkedin"
+  url = "https://linkedin.com/"
+  weight = 10
+
+[[languages.ru.menus.social]]
+  name = "GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/"
+  weight = 20
+
+[[languages.ru.menus.social]]
   name = "Medium"
   pre = "fab medium"
   url = "https://medium.com/"
