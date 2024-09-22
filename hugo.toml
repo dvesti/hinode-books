@@ -56,12 +56,27 @@ timeout = "10m"
     languageName = 'Русский'
 [languages.ru.params.sections.blog]
     title = "Блог"
+    sort = "date"
+    reverse = true
+    cols = 3
+    color = "body-tertiary"
+    padding = "0"
+    orientation = "stacked"
+    style = "border-0 card-zoom card-body-margin"
     reference = "Больше..."
 [languages.ru.params.sections.projects]
     title = "Проекты"
+    footer = "tags"
+    nested = true
+    cols = 1
+    #background = "body-tertiary"
+    color = "body-tertiary"
+    padding = "3"
+    orientation = "horizontal"
     reference = "Больше Проектов"
 [languages.ru.params.sections.books]
     title = "Книги"
+    color = "body-tertiary"
     reference = "Больше Книг"
 [languages.ru.params.head]
     tagline = "A Hugo Theme"
