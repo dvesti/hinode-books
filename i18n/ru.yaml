@@ -20,9 +20,9 @@
 
 # List pages
 - id: article
-  translation: "Статья"
+  translation: ""
 - id: articles
-  translation: "Статей"
+  translation: ""
 - id: more
   translation: "Больше {{ . }}"
 - id: emptyList

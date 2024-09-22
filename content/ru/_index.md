@@ -1,7 +1,7 @@
 ---
 author: Dvesti
-title: Всем привет!
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+title: "Всем привет!"
+description: "Этот сайт создан на Hugo, Hinode, Bootstrap, Blogdown по инструкции:"
 thumbnail:
     url: /img/sunrise.jpg
     author: Harris Vo
@@ -9,7 +9,8 @@ thumbnail:
     origin: https://unsplash.com/photos/ZX6BPboJrYk
     originName: Unsplash
 actions:
-  about:
-    url: "about"
-    title: "О сайте"
+  get-started:
+    url: "https://gethinode-com.translate.goog/docs/getting-started/introduction/?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru"
+    title: "Прочитать (на русском)"
+    icon: "fas book-open"
 ---

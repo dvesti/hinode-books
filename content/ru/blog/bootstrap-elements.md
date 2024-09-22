@@ -342,8 +342,8 @@ As an example, the following shortcode displays a persona card with a primary co
 
 <!-- markdownlint-disable MD037 -->
 {{< example lang="hugo" >}}
-{{</* persona thumbnail="/img/creator-1x1.jpg" title="Creators" color="primary" */>}}
-  As a content creator you value your independence. You like to take control of your
+{{</* persona thumbnail="/img/creator-1x1.jpg" title="От Создателя" color="primary" */>}}
+  Мы, тяф, -- в Облаках! As a content creator you value your independence. You like to take control of your
   online and offline presence. You want to focus on growing your audience, without
   limitations.
 
@@ -418,6 +418,7 @@ As an example, the following shortcode displays a timeline with the file `data/t
 
 <!-- markdownlint-disable MD037 -->
 {{< example lang="hugo" >}}
+{{</* timeline data="timeline" background="dark" */>}}
 {{< /example >}}
 <!-- markdownlint-enable MD037 -->
 

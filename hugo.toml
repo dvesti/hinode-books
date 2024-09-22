@@ -141,6 +141,15 @@ timeout = "10m"
     pageRef = 'tags/'
     weight = 50
     
+[[languages.ru.menus.sample]]
+    name = 'Блог'
+    pageRef = 'blog/'
+    weight = 20
+[[languages.ru.menus.sample]]
+    name = 'Проекты'
+    pageRef = 'projects/'
+    weight = 30    
+    
 [[languages.en.menus.social]]
   name = "LinkedIn"
   pre = "fab linkedin"
