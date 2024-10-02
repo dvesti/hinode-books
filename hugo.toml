@@ -10,7 +10,11 @@ timeout = "10m"
     themeFontPreload = "/hinode-books/fonts/inter-v12-latin-regular.woff2"
 
 [pagination]
-  PagerSize = 9
+    disableAliases = false
+    pagerSize = 10
+    path = 'page'
+
+
 
 [[module.imports]]
     path = 'github.com/gethinode/hinode'

@@ -155,3 +155,7 @@
   translation: "Поиск"
 - id: ui_no_results
   translation: "Ничего не найдено"
+  
+# Tags
+- id: blog
+  translation: "Блог"
